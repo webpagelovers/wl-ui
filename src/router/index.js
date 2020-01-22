@@ -1,15 +1,22 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Demo from '@/Demo'
+import Home from '@/Home'
+import Tree from '@/pages/tree'
 
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
-      name: 'Demo',
-      component: Demo
+      name: 'Home',
+      component: Home
+    },
+    {
+      path: '/webpagelovers-tree',
+      name: 'Tree',
+      component: Tree
     }
   ]
 })

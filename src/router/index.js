@@ -15,7 +15,7 @@ export default new Router({
     },
     {
       path: '/webpagelovers-tree',
-      name: 'Tree',
+      name: 'webpagelovers-tree',
       component: Tree
     }
   ]

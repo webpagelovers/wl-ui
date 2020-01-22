@@ -4,6 +4,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+router.beforeEach((to, form, next) => {
+  document.title = to.name
+  next()
+})
+
 import WebpageloversTree from 'webpagelovers-tree'
 
 Vue.use(WebpageloversTree)

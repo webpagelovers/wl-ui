@@ -2,7 +2,7 @@
   "name": "webpagelovers-ui",
   "version": "1.0.1",
   "description": "A Vue.js project",
-  "author": "lizhihong <zhihong.li@quanshi.com>",
+  "author": "1546786921@qq.com",
   "private": false,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",

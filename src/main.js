@@ -9,9 +9,11 @@ router.beforeEach((to, form, next) => {
   next()
 })
 
-import WebpageloversTree from 'webpagelovers-tree'
+import WlCheckbox from 'webpagelovers-checkbox'
+import WlTree from 'webpagelovers-tree'
 
-Vue.use(WebpageloversTree)
+Vue.use(WlCheckbox)
+Vue.use(WlTree)
 
 Vue.config.productionTip = false
 
